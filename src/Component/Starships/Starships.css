@@ -1,10 +1,10 @@
-.starships{
+.starships {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   height: 200px;
   width: 300px;
-  background-color:#32a88b;
+  background-color: #32a88b;
   border-radius: 16px;
   align-items: center;
   justify-content: center;

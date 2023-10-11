@@ -1,4 +1,4 @@
-#main{
+#main {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -8,10 +8,9 @@
   font-family: 'Lobster', sans-serif;
 }
 
-.shipdetail{
+.shipdetail {
   width: 600px;
   height: 550px;
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,9 +19,9 @@
   padding-bottom: 24px;
   background-color: #32a88b;
   font-family: 'Lobster', sans-serif;
-
 }
-button{
+
+button {
   margin: 20px;
   background-color: orchid;
   padding: 10px;
