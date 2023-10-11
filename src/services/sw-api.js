@@ -18,3 +18,17 @@ export async function getShipDetail(shipId){
     console.log(error)
   }
 }
+
+export async function getPilots(pilotsArr){
+  try {
+const promises=pilotsArr.map(
+  pilot => fetch(pilot)
+  .then(res => res.json())
+)
+const pilotData=await Promise.all(promises)
+return pilotData
+    
+  }catch (error) {
+    console.log(error)
+  }
+}
