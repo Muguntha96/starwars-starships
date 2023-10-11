@@ -1,8 +1,8 @@
-const baseUrl='https://swapi.dev'
+const baseUrl='https://swapi.dev/api/starships'
 
 export async function getAllStarships(){
 try {
-  const res= await fetch (`${baseUrl}/api/starships`)
+  const res= await fetch (`${baseUrl}`)
   return res.json()
   
 } catch (error) {
@@ -10,9 +10,9 @@ try {
 }
 }
 
-export async function getShipDetail(starshipId){
+export async function getShipDetail(shipId){
   try {
-    const res= await fetch(`${baseUrl}/api/starships/${starshipId}`)
+    const res= await fetch (`${baseUrl}/${shipId}`)
     return res.json()
   } catch (error) {
     console.log(error)
