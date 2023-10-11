@@ -4,18 +4,20 @@ import './Starships.css'
 
 const Starships = (props) => {
   return (
-    <div>
+    <>
+  
       <h1>StarWars Starships</h1>
-
+<div id='main'>
       {props.starships.map(starship =>
-        <div className='starships' key={starship.name}>
+        <div className='starships'  key={starship.name}>
          
    <Link to={`/${starship.url.match(/\d+/)}`}>{starship.name.toLowerCase()}</Link> 
          
           </div>)}
 
 
-    </div>
+          </div>
+          </>
   )
 }
 

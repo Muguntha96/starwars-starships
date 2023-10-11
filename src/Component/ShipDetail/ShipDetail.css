@@ -1,0 +1,31 @@
+#main{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Lobster', sans-serif;
+}
+
+.shipdetail{
+  width: 600px;
+  height: 550px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  padding-bottom: 24px;
+  background-color: #32a88b;
+  font-family: 'Lobster', sans-serif;
+
+}
+button{
+  margin: 20px;
+  background-color: orchid;
+  padding: 10px;
+  font-family: 'Lobster', sans-serif;
+  font-size: large;
+}

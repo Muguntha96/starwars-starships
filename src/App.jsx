@@ -3,7 +3,6 @@ import {getAllStarships} from './services/sw-api.js'
 import { Route, Routes } from 'react-router-dom'
 import Starships from './Component/Starships/Starships.jsx'
 import StarshipDetail from './pages/StarshipDetail/StarshipDetail.jsx'
-
 import './App.css'
 
 
